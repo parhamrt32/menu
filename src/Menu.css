@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@300&display=swap");
+.section-center {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  justify-items: center;
+  column-gap: 60px;
+  grid-auto-flow: dense;
+}
+
+@media only screen and (max-width: 688px) {
+  .section-center {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.menu-item {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-item:last-child {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-family: "Cookie", cursive;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.photo {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #daa520;
+  border-radius: 2px;
+}
+
+.price {
+  color: #daa520;
+}
+
+.item-info > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #daa520;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.item-text {
+  font-family: "Raleway", sans-serif;
+}

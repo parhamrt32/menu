@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.filter-btn {
+  border: 1px solid #daa520;
+  padding: 2px 3px;
+  background-color: white;
+  transition: 400ms;
+  width: 90px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+}
+
+.filter-btn:hover {
+  background-color: #daa520;
+  color: white;
+  border-radius: 6px;
+}
